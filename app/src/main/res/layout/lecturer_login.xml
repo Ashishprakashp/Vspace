@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <!-- Roll Number Input -->
+    <EditText
+        android:id="@+id/mail_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lecturer Mail"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textSize="20dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/black"
+       />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/pw_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+
+        android:textSize="20dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/black"
+        />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="@color/aqua"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:elevation="1dp"/>
+
+    <!-- Signup Button -->
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:backgroundTint="@color/aqua"
+        android:textColor="@android:color/white"
+
+        android:textSize="16sp"
+        />
+
+</LinearLayout>

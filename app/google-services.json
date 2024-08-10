@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "758070039411",
+    "project_id": "v-space-4669b",
+    "storage_bucket": "v-space-4669b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758070039411:android:7d28d1e87ed98aff47ab06",
+        "android_client_info": {
+          "package_name": "com.example.v_space"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA74oKpBzRDPNywoiZ4meCb9GNYWGgSVV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

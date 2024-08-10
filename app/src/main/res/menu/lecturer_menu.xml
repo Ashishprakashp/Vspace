@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:title="dashboard"
+        android:icon="@drawable/menu_icon" />
+    <item
+        android:id="@+id/item2"
+            android:title="New department"
+        android:icon="@drawable/menu_icon" />
+    <item
+        android:id="@+id/item3"
+        android:title="New class"
+        android:icon="@drawable/menu_icon" />
+    <item
+        android:id="@+id/item4"
+        android:title="New space"
+        android:icon="@drawable/menu_icon" />
+    <item
+        android:id="@+id/item5"
+        android:title="Profile"
+        android:icon="@drawable/menu_icon" />
+
+</menu>

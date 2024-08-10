@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Spinner for Subject Name -->
+    <Spinner
+        android:id="@+id/subject_name_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Spinner for Subject Code -->
+    <Spinner
+        android:id="@+id/subject_code_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false" /> <!-- Disabled to prevent manual selection -->
+
+    <!-- EditText for Lecturer Name -->
+    <Spinner
+        android:id="@+id/lecturer_name_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!-- EditText for Room Number -->
+    <EditText
+        android:id="@+id/room_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room Number"
+        android:inputType="text" />
+</LinearLayout>
